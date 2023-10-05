@@ -15,7 +15,7 @@ const app = express()
 
 dotenv.config({path : './config.env'})
 
-app.use(cors({credentials: true , origin:"http://localhost:3000"}))
+app.use(cors({credentials: true , origin:"https://blog-app-zgo4.onrender.com"}))
 
 // console.log(app)
 
@@ -32,7 +32,7 @@ app.use("/api/blog" , blogRouter)
 
 
 // 2nd step heroku 
-const PORT = process.env.PORT || 4000
+const PORT = process.env.PORT 
 
 // 3nd step heroku 
 
