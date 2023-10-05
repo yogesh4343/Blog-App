@@ -15,7 +15,7 @@ const app = express()
 
 dotenv.config({path : './config.env'})
 
-app.use(cors({credentials: true , origin:"https://blog-app-zgo4.onrender.com"}))
+app.use(cors({credentials: true , origin:"https://monumental-capybara-0e3c1a.netlify.app"}))
 
 // console.log(app)
 
